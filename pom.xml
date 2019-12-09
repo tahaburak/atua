@@ -12,7 +12,7 @@
 	<artifactId>atua</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>atua</name>
-	<description>simple spring boot project for spring boot admin</description>
+	<description>Spring Boot Admin</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -25,10 +25,18 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-starter-server</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
